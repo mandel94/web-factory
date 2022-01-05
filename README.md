@@ -6,15 +6,14 @@ This would allow to use html in a programmatic way, adding to:
 
 Moreover, by putting constrainsts on some parameters, we could easily get standardized code snippets.
 
-the final product will be plain html code.   
-
+The final product will be plain html code.   
 
 ### Fake prototype code sample
 ```javascript 
-navbar = new Navbar();
-ul = new UnorderList();
-il = new ItemList();
-css = new CSS("stylesheet.css"); # reads from a file
+const navbar = new Navbar();
+const ul = new UnorderList();
+const il = new ItemList();
+const css = new CSS("stylesheet.css"); // reads from a file
 
 /* @example
 navbar.class({}).id({}).style({}).child({}).child({}).code({});
